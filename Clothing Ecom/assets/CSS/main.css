@@ -1,0 +1,655 @@
+
+/* styling Start's Here for home.html */
+    /* header styling start here*/
+    body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    }
+    header{
+    align-items: center;
+    display:flex;
+    flex-wrap: wrap;
+    gap:50px;
+    font-size: 18px;
+    margin: 20px 0px 20px 0px;
+    }
+
+    img{
+    margin-left:50px;
+    }
+
+    ul{
+ list-style: none;
+ display: flex;
+ gap:25px;
+ justify-items: center;
+    }
+    a{
+    text-decoration: none;
+    color: black;
+    }
+    .icons{
+    margin-left: 105px;
+    position: relative;
+    }
+    input[type="text"]{
+    width: 318px;
+    height: 28px;
+    padding-left: 15px;
+    }
+    #icon-1{
+    position: absolute;
+    top: 7px;
+    left: 410px;
+    color: #99AAAB;
+    }
+    .span{
+    background-color:#218F76;
+    color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    text-align: center;
+    position: absolute;
+    font-size: smaller;
+    left: 458px;
+    top: -4px;
+    }
+    .span_01{
+    background-color:#218F76;
+    color: white;
+    height:16px;
+    width:16px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: smaller;
+    position: absolute;
+    right: -10px;
+    top:-3px;
+    }
+/* header styling End here*/
+
+
+
+
+
+
+/* Main styling Start's here*/ 
+
+    /* Main>Banner styling Start's here*/ 
+.cart_home-banner-description{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    margin-left: 5px;
+}
+.cart_banner-details{
+    margin-top: 60px;
+}
+.cart_banner-heading{
+    position: relative;
+}
+.banner-heading02{
+    position: absolute;
+    left: 270px;
+    top:-33px;
+    font-size: 40px;
+    color: #218F76;
+}
+.banner-heading03{
+    position: absolute;
+    top:15px;
+    left: -1px;
+    font-size: 40px;
+    color: #218F76;
+} 
+.cart_banner-details .cart_paragraph-offer{
+    margin-top: 70px;
+    color:rgba(0, 0, 0, 0.611);
+}
+.cart_banner-details .banner-button button{
+    padding: 10px 20px;
+    background-color: #218F76;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.banner-button button:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    
+}
+/* Main>Banner styling Ends's here*/ 
+
+ /* Main>Popular styling Start's here*/ 
+ .PopularCategorie{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+ }
+.Categories-heading{
+    display: inline-flex;
+    gap: 5px;
+    margin-left: 20px;
+ }
+.PopularCategorie .Categories-heading .head-1{
+color: #218F76;
+}
+.PopularCategorie .Categories-icons{
+    margin-top: 15px;
+}
+.Categories-icons button{
+    border: 1px solid #EAF0F1;
+    border-radius: 110px;
+    padding: 10px 15px 10px 15px;
+    margin-right: 5px;
+    background-color: #99f8bf;
+}
+
+
+/* Main>PopularCategories styling Start's here*/
+ .PopularCategories{
+    display: flex;
+    gap: 20px;
+    margin: 0px 0px 10px 50px;
+    width: 600px;
+ }
+ .category-1{
+    border: 1px solid #99f8bfd6;
+    border-radius: 20px;
+    width:fit-content;
+    padding: 10px;
+    width: 100%;
+    
+ }
+ .category-1para{
+    padding-left: 30%;
+    font-weight: bolder;
+    
+}
+.category-1 img{
+    border-radius: 20px;
+    margin-left: 0px;
+}
+/* Main>PopularCategories styling End's here*/
+
+
+/* Main>Popular styling Ends's here*/ 
+
+
+ /* Cards scetion styling Start's */
+ /* product-feature styling Start's Here */
+ .product-features{
+    display: flex;
+    gap: 15px;
+    margin: 50px 0px 30px 30px;
+ }
+ .product-features .featured{
+    border: 1px solid #EAF0F1;
+    padding: 12px 15px 12px 15px;
+    background-color: #F9DDA4;
+    color:#218F76;
+    font-weight:bold;
+    border-radius: 5px;
+ }
+ .product-features .popular{
+    border: 1px solid #EAF0F1;
+    padding: 12px 15px 12px 15px;
+    background-color: #DAE0E2;
+    font-weight:bold;
+    border-radius: 5px;
+ }
+ 
+/* product-feature styling End's Here */
+
+
+/*product_cards styling Start's Here */
+.product_cards{
+    display: flex;
+    gap: 20px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+.product_card-01{
+    border: 1px solid #EAF0F1;
+    border-radius: 20px;
+    width:fit-content;
+    margin-left: 20px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+}
+.product_card-01-topimg{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.top-img{
+    opacity: 0;
+    transition: all 1s ease ;
+}
+.top-img:hover{
+    opacity: 1;
+}
+.product_card-01 img{
+    width: 300px;
+    height: 250px;
+    border-radius: 20px; 
+    margin-left: 0px;   
+}
+.product_card-01Para{
+    color: #99AAAB;
+    padding-top: 0px;
+}
+.product_card-01Heading{
+    font-size: 14px;
+    padding-top: 0px;
+    margin-top: -5px;
+}
+.product_card-01icon{
+    display: flex;
+    gap: 2px;
+    color: #f8ca11ea;
+    font-size: 12px;
+    margin-top: -10px;
+}
+.card_01-price{
+    display: flex;
+    gap: 8px;
+}
+.card_01-itemprice{
+    color: #218F76;
+    font-weight: bold;
+}
+.card_01-price strike{
+    padding-top: 17px;
+    font-size: 12px;
+}
+.card-01_hot{
+    background-color: rgba(239, 112, 154, 0.896);
+    width: fit-content;
+    padding: 3px 10px 3px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+    position: relative;
+    left: 10px;
+    top:-370px;   
+}
+/* product_cards styling End's Here */
+
+/* Cards scetion styling End's */
+  
+
+/*main>card_spcial-deals styling Start's Here */
+    /* card_spcial-deals>DealOfTheDay styling Start's Here */
+
+    /* card_spcial-deals>DealOfTheDay styling Ends's Here */
+/*main>card_spcial-deals styling End's Here */
+
+
+ /* Main styling End's here*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer styling Start's here*/
+
+
+/* footer search-bar styleing start here */
+.cart_contact{
+    display: flex;
+    gap: 250px;
+    background-color:#4daf7cda;
+    height: 70px;
+    align-items: center;
+    position: relative;
+    padding-left: 25px;
+    width:1494px;
+    
+
+}
+.contact_mail{
+    display: flex;
+    gap: 8px;
+    align-items: center; 
+}
+
+.cart_inputsearch input{
+    height: 30px;
+    width: 100%;
+    
+    padding: 1px 30px 1px 10px;
+    
+}
+.cart_inputsearch button{
+    background-color: black;
+    color: white;
+    padding: 8px 21px ;
+    position: absolute;
+    right: 95px;
+    top:18px;
+    font-weight:bold;
+    
+}
+    /* footer search-bar styleing End's here */
+
+
+/* footer footer>cart_footer-discription styleing Start's here */
+
+.cart_footer-discription{
+    width:fit-content;
+    display: flex;
+    margin-left: 50px; 
+}
+.cart_footer-discription img{
+    margin-bottom: -25px;
+    margin-top: 15px;
+}
+.cart_footer-discription .contact{
+    color: gray;
+    margin-bottom: -10px;
+}
+
+.cart_addres .cart_cantact-info{
+    flex-direction: column;
+}
+
+.cart_cantact-info span{
+    font-weight: bold;
+}
+.cart_cantact-info li{
+    margin-bottom: -10px;
+}
+.cart_icons-socialmedia h4{
+    color: gray;
+}
+.cart_icons-socialmedia i{
+padding-left: 5px;
+}
+.cart_icons-socialmedia .fa-brands{
+    padding-left: 15px;
+}
+    /* footer footer>cart_footer-discription styleing End's here */
+
+
+/* footer footer>cart_about styleing Start's here */
+.cart_footer-discription .cart_about{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    padding-top: 30px;
+}
+
+.cart_footer-discription .cart_about a{
+    padding-bottom: 25px;
+}
+        /* footer footer>cart_about styleing End's here */
+
+
+/* footer footer>cart_myaccount styleing Start's here */
+ .cart_footer-discription .cart_myaccount{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+    padding-top: 30px; 
+ }
+ .cart_footer-discription .cart_myaccount>a{
+    padding-bottom: 25px;
+ }
+        /* footer footer>cart_myaccount styleing End's here */
+
+/* footer footer>cart_payment styleing Start's here */
+.cart_footer-discription .cart_payment{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+    padding-top: 30px;
+}
+.cart_footer-discription .cart_payment img{
+    margin-left: 0px;
+}
+        /* footer footer>cart_payment styleing End's here */
+
+/* Footer styling End's here*/
+
+
+/* styling End's Here for  home.html */
+
+
+
+
+
+
+
+/* styling Start's Here for  Shop.html */
+    .ShopCart_path{
+    display: flex;
+    gap:10px;
+    background-color: #F2F1EF;
+    padding: 5px 1275px 5px 70px;
+    width:fit-content;
+    margin-bottom: 40px;
+    }
+    .ShopCart_paragraph{
+    display: inline-flex;
+    gap: 1px;
+    margin:0px 0px 20px 60px;
+
+    }
+    .ShopCart_paragraph .ShopCart-para02{
+    color: #218F76;
+    }
+    .ShopCart_pages{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+    }
+    .ShopCart_pages{
+    margin: 30px 0px 30px 0px;
+    }
+    .ShopCart_pages .ShopCart_pages-para1{
+    margin-top: 12px;
+    background-color: #218F76;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    }
+/* styling End's Here for  Shop.html */
+
+
+
+
+
+/* styling Start's Here for  myaccount.html */
+    /*  myaccount.html>Main styleing Start's here */
+
+    /* Main>cart_account-01 styleing Start's here */
+    main{
+    padding: 0px;
+    margin: 0px;
+    }
+    main .cart_account-top{
+    display: flex;
+    gap: 10px;
+    background-color: #EEEEEE;
+    padding: 8px 0px 8px 110px;
+    margin: 5px auto;
+    }
+
+    .cart_account{
+    border: 1px solid #BDC3C7;
+    width: 400px;
+   margin: 50px 0px 50px 120px;
+   padding: 0px;
+    }
+
+    .cart_account .cart_account-dashboard{
+    background-color:#049372;
+    border: none;
+    }
+    .cart_account .cart_account-dashboard a i{
+    padding: 15px 10px 10px 25px;
+    }
+    .cart_account .cart_account-dashboard span{
+    color: white;
+    }
+
+
+    .cart_account .cart_account-orders a i{
+    padding: 15px 10px 10px 25px;
+    }
+
+
+    .cart_account .cart_account-Updateprofile a i{
+    padding: 15px 10px 10px 25px;
+    }
+
+    .cart_account .cart_account-myaddress a i{
+    padding: 15px 10px 10px 25px;
+    }
+
+    .cart_account  .cart_account-Changepassword a i{
+    padding: 15px 10px 10px 25px;
+    }
+
+    .cart_account .cart_account-logout a i{
+    padding: 15px 10px 15px 25px;
+    margin-bottom: 5px;
+    }
+
+    .cart_account-description{
+    display: flex;
+    gap: 20px;
+    margin-left: 25px;
+    }
+    .cart_account-description .cart_account-dashboard-details{
+    border: 2px solid #EEEEEE;
+   height:fit-content;
+   margin-top: 50px;
+    }
+    .cart_account-dashboard-details .head{
+    background-color: #EEEEEE;
+    border: none;
+    padding: 15px;
+    margin-top: 0px;
+    }
+    .cart_account-dashboard-details p{
+    padding: 10px 50px 5px 15px;
+    }
+
+    /* Main>cart_account-01 styleing End's here */
+    /*  myaccount.html>Main styleing End's here */
+/* styling End's Here for  myaccount.html */
+
+
+
+
+
+/* styling Start's Here for  login.html */
+    /* main>cart_login  styleing start's here */
+main {
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+}
+.cart_show-path{
+    display: flex;
+    gap:10px;
+    background-color: #F2F1EF;
+    padding: 5px 1275px 5px 70px;
+    width:fit-content;
+    margin-bottom: 40px;
+}
+
+.cart_login-details{
+    display: flex;
+    gap:20px; 
+    margin: auto 200px;
+    margin-bottom: 35px;
+    
+}
+.cart_login{
+    border: 1px solid #DAE0E2;
+    width: fit-content;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    height: fit-content;
+}
+.cart_login input{
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: none;
+}
+.cart_login button{
+    background-color: #218F76;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight:bolder;
+    transition: all 0.1s ease;
+}
+.cart_login button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+/* main>cart_login  styleing End's here */
+
+
+/* main>cart_account  styleing Start's here */
+.cart_account{
+    border: 1px solid #DAE0E2;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+}
+.cart_account input{
+    width: 550px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: none;
+}
+.cart_account button{
+    background-color: #218F76;
+    color: white;
+    font-weight: bolder;    
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.1s ease;
+}
+.cart_account button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+/* main>cart_account  styleing End's here */
+
+/* main>cart_login  styleing End's's here */
+
+
+
+/* styling End's Here for  login.html */
